@@ -4,7 +4,8 @@ I wrote a small [leJOS](http://www.lejos.org/) program for it to entertain small
 
 # How to get it run
 You should have a LEGO Mindstorms EV3 brick with leJOS installed and an Eclipse working space where
-the leJOS plugin is available (see the [leJOS wiki page](https://sourceforge.net/p/leJOS/wiki/Getting%20started%20with%20leJOS%20EV3/) for details).
+the leJOS plugin is available (see the [leJOS wiki page](https://sourceforge.net/p/leJOS/wiki/Getting%20started%20with%20leJOS%20EV3/) for details). Instructions:
+
 1. Build the robot (building instructions can be found in [Fabian Deitelhoff's Blog](http://www.fabiandeitelhoff.de/2015/11/lego-mindstorms-ev3-education-offizielle-bauanleitungen/) (x)
 1. Checkout the code and import it into the Eclipse Workspace.
 1. Use the EV3control GUI tool that comes with the leJOS eclipse plugin to connect to the brick
