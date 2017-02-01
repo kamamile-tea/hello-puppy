@@ -35,13 +35,19 @@ public class Legs {
     }
 
     public void standUp() {
-        leftLeg.setSpeed(600);
-        rightLeg.setSpeed(600);
+        leftLeg.setSpeed(800);
+        rightLeg.setSpeed(800);
+        leftLeg.rotateTo(-20, true);
+        rightLeg.rotateTo(-20, true);
+        Delay.msDelay(800);
         leftLeg.rotateTo(-30, true);
         rightLeg.rotateTo(-30, true);
+        Delay.msDelay(2000);
+        leftLeg.rotateTo(-32, true);
+        rightLeg.rotateTo(-32, true);
         Delay.msDelay(800);
-        leftLeg.setSpeed(200);
-        rightLeg.setSpeed(200);
+        leftLeg.setSpeed(100);
+        rightLeg.setSpeed(100);
         leftLeg.rotateTo(-60, true);
         rightLeg.rotateTo(-60, true);
     }

@@ -17,8 +17,12 @@ and move the head (Motor 3) all the way down.
 
 # What it does
 You can wake the puppy by pressing the touch sensor on the back. When the puppy is awake, you can present the
-different colors from the bone (green color is not implemented yet) and the puppy reacts differenty.
+different colors from the bone (green color is not implemented yet) and the puppy reacts differenlty.
 After 10s idle time, the puppy sits down and starts to sleep.
+
+**Note**: The most difficult part is the stand up procedure. Since I've build the robot using the 
+rechargeable battery pack, its head is very heavy and so the puppy easily falls on his face. You
+might need to tweak the `standUp()` method when you are using batteries (see `Legs` class).
 
 # License
 General Public License 3, see `LICENSE.txt`.
