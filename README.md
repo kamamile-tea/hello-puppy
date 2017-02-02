@@ -1,6 +1,12 @@
 # hello-puppy
 The Puppy Robot is one of the robots that can be built with the LEGO Mindstorms EV3 Education kit.
-I wrote a small [leJOS](http://www.lejos.org/) program for it to entertain small children. :)
+I wrote a small [leJOS](http://www.lejos.org/) program for it to entertain my children. :) The 
+implemented behaviour is rather simple. Anyway, it may serve as a starting point for further experiments
+with this robot.
+
+Here is a short video demonstration on youtube:
+
+[![Puppy video on youtube](http://img.youtube.com/vi/o2RHZT5TML8/0.jpg)](https://youtu.be/o2RHZT5TML8)
 
 # How to get it run
 You should have a LEGO Mindstorms EV3 brick with leJOS installed and an Eclipse working space where
